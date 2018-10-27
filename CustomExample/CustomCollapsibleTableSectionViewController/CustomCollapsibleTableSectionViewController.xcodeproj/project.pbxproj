@@ -13,6 +13,11 @@
 		DE1AAE4B2184297B00F9E909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1AAE492184297B00F9E909 /* Main.storyboard */; };
 		DE1AAE4D2184297D00F9E909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1AAE4C2184297D00F9E909 /* Assets.xcassets */; };
 		DE1AAE502184297D00F9E909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1AAE4E2184297D00F9E909 /* LaunchScreen.storyboard */; };
+		DE1AAE60218436BD00F9E909 /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1AAE5B218436BC00F9E909 /* CollapsibleTableViewController.swift */; };
+		DE1AAE61218436BD00F9E909 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1AAE5C218436BD00F9E909 /* Extensions.swift */; };
+		DE1AAE62218436BD00F9E909 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1AAE5D218436BD00F9E909 /* ExampleData.swift */; };
+		DE1AAE63218436BD00F9E909 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1AAE5E218436BD00F9E909 /* CollapsibleTableViewHeader.swift */; };
+		DE1AAE64218436BD00F9E909 /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1AAE5F218436BD00F9E909 /* CollapsibleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		DE1AAE4C2184297D00F9E909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1AAE4F2184297D00F9E909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1AAE512184297D00F9E909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1AAE5B218436BC00F9E909 /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewController.swift; sourceTree = "<group>"; };
+		DE1AAE5C218436BD00F9E909 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DE1AAE5D218436BD00F9E909 /* ExampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		DE1AAE5E218436BD00F9E909 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		DE1AAE5F218436BD00F9E909 /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,7 @@
 		DE1AAE442184297B00F9E909 /* CustomCollapsibleTableSectionViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DE1AAE5A218436A700F9E909 /* CustomTableView */,
 				DE1AAE452184297B00F9E909 /* AppDelegate.swift */,
 				DE1AAE472184297B00F9E909 /* ViewController.swift */,
 				DE1AAE492184297B00F9E909 /* Main.storyboard */,
@@ -86,6 +97,18 @@
 				DE1AAE512184297D00F9E909 /* Info.plist */,
 			);
 			path = CustomCollapsibleTableSectionViewController;
+			sourceTree = "<group>";
+		};
+		DE1AAE5A218436A700F9E909 /* CustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DE1AAE5F218436BD00F9E909 /* CollapsibleTableViewCell.swift */,
+				DE1AAE5B218436BC00F9E909 /* CollapsibleTableViewController.swift */,
+				DE1AAE5E218436BD00F9E909 /* CollapsibleTableViewHeader.swift */,
+				DE1AAE5D218436BD00F9E909 /* ExampleData.swift */,
+				DE1AAE5C218436BD00F9E909 /* Extensions.swift */,
+			);
+			path = CustomTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1AAE60218436BD00F9E909 /* CollapsibleTableViewController.swift in Sources */,
 				DE1AAE482184297B00F9E909 /* ViewController.swift in Sources */,
+				DE1AAE64218436BD00F9E909 /* CollapsibleTableViewCell.swift in Sources */,
 				DE1AAE462184297B00F9E909 /* AppDelegate.swift in Sources */,
+				DE1AAE61218436BD00F9E909 /* Extensions.swift in Sources */,
+				DE1AAE63218436BD00F9E909 /* CollapsibleTableViewHeader.swift in Sources */,
+				DE1AAE62218436BD00F9E909 /* ExampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
